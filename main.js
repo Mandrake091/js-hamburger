@@ -3,13 +3,11 @@ let bottoneHamburger = document.querySelector("i.fa-bars");
 let bottoneClose = document.querySelector("i.fa-times");
 
 bottoneHamburger.addEventListener('click', function () {
-    let hamburger = document.querySelector("div.hamburger-menu")
-    console.log(hamburger);
-    hamburger.classList.add("active");
+    let hamburgerOpen = document.querySelector("div.hamburger-menu")
+    hamburgerOpen.classList.add("active");
 })
 
 bottoneClose.addEventListener('click', function () {
-    let hamburger = document.querySelector("div.hamburger-menu")
-    console.log(hamburger);
-    hamburger.classList.remove("active");
+    let hamburgerClose = document.querySelector("div.hamburger-menu")
+    hamburgerClose.classList.remove("active");
 })
